@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFCC412121363944005B54A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC412021363944005B54A7 /* AppDelegate.swift */; };
+		AFCC412321363944005B54A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC412221363944005B54A7 /* ViewController.swift */; };
+		AFCC412621363944005B54A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCC412421363944005B54A7 /* Main.storyboard */; };
+		AFCC412821363946005B54A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCC412721363946005B54A7 /* Assets.xcassets */; };
+		AFCC412B21363946005B54A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCC412921363946005B54A7 /* LaunchScreen.storyboard */; };
+		AFCC41342136399F005B54A7 /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC41332136399F005B54A7 /* PasswordInputView.swift */; };
+		AFCC4136213639A9005B54A7 /* PasswordInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFCC4135213639A9005B54A7 /* PasswordInputView.xib */; };
+		AFCC4139213640E1005B54A7 /* DigitalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC4138213640E1005B54A7 /* DigitalButton.swift */; };
+		AFFF0FCD21367FB40049449E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF0FCC21367FB40049449E /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFCC411D21363944005B54A7 /* PWDView Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PWDView Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCC412021363944005B54A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFCC412221363944005B54A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFCC412521363944005B54A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFCC412721363946005B54A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFCC412A21363946005B54A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFCC412C21363946005B54A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCC41332136399F005B54A7 /* PasswordInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputView.swift; sourceTree = "<group>"; };
+		AFCC4135213639A9005B54A7 /* PasswordInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordInputView.xib; sourceTree = "<group>"; };
+		AFCC4138213640E1005B54A7 /* DigitalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalButton.swift; sourceTree = "<group>"; };
+		AFFF0FCC21367FB40049449E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCC411A21363944005B54A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFCC411421363944005B54A7 = {
+			isa = PBXGroup;
+			children = (
+				AFCC411F21363944005B54A7 /* PWDView Demo */,
+				AFCC411E21363944005B54A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCC411E21363944005B54A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCC411D21363944005B54A7 /* PWDView Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCC411F21363944005B54A7 /* PWDView Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AFCC412021363944005B54A7 /* AppDelegate.swift */,
+				AFCC412221363944005B54A7 /* ViewController.swift */,
+				AFCC413221363953005B54A7 /* PWDView */,
+				AFCC412421363944005B54A7 /* Main.storyboard */,
+				AFCC412721363946005B54A7 /* Assets.xcassets */,
+				AFCC412921363946005B54A7 /* LaunchScreen.storyboard */,
+				AFCC412C21363946005B54A7 /* Info.plist */,
+			);
+			path = "PWDView Demo";
+			sourceTree = "<group>";
+		};
+		AFCC413221363953005B54A7 /* PWDView */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF0FCB21367FA00049449E /* Utilities */,
+				AFCC413721363F9A005B54A7 /* Button */,
+				AFCC41332136399F005B54A7 /* PasswordInputView.swift */,
+				AFCC4135213639A9005B54A7 /* PasswordInputView.xib */,
+			);
+			path = PWDView;
+			sourceTree = "<group>";
+		};
+		AFCC413721363F9A005B54A7 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				AFCC4138213640E1005B54A7 /* DigitalButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		AFFF0FCB21367FA00049449E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF0FCC21367FB40049449E /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCC411C21363944005B54A7 /* PWDView Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCC412F21363946005B54A7 /* Build configuration list for PBXNativeTarget "PWDView Demo" */;
+			buildPhases = (
+				AFCC411921363944005B54A7 /* Sources */,
+				AFCC411A21363944005B54A7 /* Frameworks */,
+				AFCC411B21363944005B54A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PWDView Demo";
+			productName = "PWDView Demo";
+			productReference = AFCC411D21363944005B54A7 /* PWDView Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCC411521363944005B54A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = pf;
+				TargetAttributes = {
+					AFCC411C21363944005B54A7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AFCC411821363944005B54A7 /* Build configuration list for PBXProject "PWDView Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFCC411421363944005B54A7;
+			productRefGroup = AFCC411E21363944005B54A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCC411C21363944005B54A7 /* PWDView Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCC411B21363944005B54A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCC4136213639A9005B54A7 /* PasswordInputView.xib in Resources */,
+				AFCC412B21363946005B54A7 /* LaunchScreen.storyboard in Resources */,
+				AFCC412821363946005B54A7 /* Assets.xcassets in Resources */,
+				AFCC412621363944005B54A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCC411921363944005B54A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCC4139213640E1005B54A7 /* DigitalButton.swift in Sources */,
+				AFCC412321363944005B54A7 /* ViewController.swift in Sources */,
+				AFCC41342136399F005B54A7 /* PasswordInputView.swift in Sources */,
+				AFFF0FCD21367FB40049449E /* Utilities.swift in Sources */,
+				AFCC412121363944005B54A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFCC412421363944005B54A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCC412521363944005B54A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFCC412921363946005B54A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCC412A21363946005B54A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFCC412D21363946005B54A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFCC412E21363946005B54A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFCC413021363946005B54A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PWDView Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paintfuture.PWDView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AFCC413121363946005B54A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PWDView Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paintfuture.PWDView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCC411821363944005B54A7 /* Build configuration list for PBXProject "PWDView Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCC412D21363946005B54A7 /* Debug */,
+				AFCC412E21363946005B54A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCC412F21363946005B54A7 /* Build configuration list for PBXNativeTarget "PWDView Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCC413021363946005B54A7 /* Debug */,
+				AFCC413121363946005B54A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCC411521363944005B54A7 /* Project object */;
+}
